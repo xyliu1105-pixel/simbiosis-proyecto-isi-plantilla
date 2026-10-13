@@ -92,6 +92,12 @@ UC-04 requiere una cuenta, pero no una sesión iniciada. UC-02 representa la acc
 
 UC-07 se aplica a cada relación de cuidado. Su objetivo se distingue de la aprobación de la cuenta de cuidador que realiza el Coordinador en UC-31.
 
+UC-16 incluye UC-11 para enviar el correo de invitación. Recibir esta invitación no equivale a registrarse ni concede acceso automático a datos de salud.
+
+UC-17 requiere la existencia previa de una autorización activa (UC-14). La mera relación de cuidado no concede acceso automático a todos los datos.
+
+UC-22 es una extensión de UC-21 que se aplica de forma condicionada cuando el usuario registrado tiene declaradas alergias o intolerancias en su perfil.
+
 UC-31 representa la aprobación de la cuenta por el Coordinador. Esta aprobación no sustituye la verificación del correo ni la autorización de cada paciente para activar una relación de cuidado.
 
 UC-32 representa la suspensión administrativa seleccionada para E1. No incorpora el bloqueo temporal ni la expulsión por infracciones, que siguen pendientes.
