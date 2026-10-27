@@ -25,11 +25,11 @@ Dividimos la épica en tres historias independientes porque cada una cubre una c
 
 ## US-01
 
-**Título:** [Capacidad]
+**Título:** Búsqueda por palabra o frase libre
 
-Como [rol], quiero [capacidad], para [beneficio].
+Como persona usuaria registrada, quiero buscar recetas mediante una palabra o frase, para localizar preparaciones que contengan dicho texto en su título o descripción.
 
-**Fuentes:** UR-08; UC-21; [FR principal]; acta, [apartado pertinente].
+**Fuentes:** UR-08; UC-21; FR-085; acta, apartado 2.
 
 ### Criterios de aceptación
 
