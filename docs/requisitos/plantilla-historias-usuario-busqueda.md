@@ -53,7 +53,7 @@ Como persona usuaria registrada, quiero buscar recetas seleccionando ingrediente
 
 ## US-03
 
-**Título:** [Capacidad]
+**Título:** Búsqueda por exclusión de ingredientes y búsqueda combinada
 
 Como [rol], quiero [capacidad], para [beneficio].
 
