@@ -39,11 +39,11 @@ Como persona usuaria registrada, quiero buscar recetas mediante una palabra o fr
 
 ## US-02
 
-**Título:** [Capacidad]
+**Título:** Búsqueda por ingredientes incluidos
 
-Como [rol], quiero [capacidad], para [beneficio].
+Como persona usuaria registrada, quiero buscar recetas seleccionando ingredientes que deseo añadir, para encontrar platos que aprovechen los alimentos de los que dispongo.
 
-**Fuentes:** UR-08; UC-21; [FR principal]; acta, [apartado pertinente].
+**Fuentes:** UR-08; UC-21; FR-086; acta, apartado 2.
 
 ### Criterios de aceptación
 
