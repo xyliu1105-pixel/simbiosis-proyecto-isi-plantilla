@@ -3,8 +3,8 @@
 | Campo | Valor |
 | --- | --- |
 | Proyecto | Proyecto Simbiosis |
-| Fecha | [dd/mm/aaaa] |
-| Versión | [Versión de trabajo] |
+| Fecha | [27/10/2026] |
+| Versión | [1.0] |
 | Estado | Borrador |
 
 ## Fuentes comunes
@@ -15,13 +15,15 @@
 
 ## Épica de búsqueda
 
-Como [rol], quiero [capacidad amplia], para [beneficio].
+Como persona usuaria registrada, quiero buscar recetas por término de texto, por ingredientes incluidos o por ingredientes excluidos, para encontrar preparaciones culinarias ajustadas a mis gustos y restricciones alimentarias.
 
 **Estado:** descompuesta en US-01, US-02 y US-03. Conserva la necesidad conjunta.
 
 ## Justificación de la división
 
 [Justificación de los resultados útiles que separa la división.]
+
+Dividimos la épica en tres historias independientes porque cada una cubre una capacidad de búsqueda funcional específica que aporta un valor diferenciado por sí misma. Esto permite que una persona busque solo por texto, busque aprovechando sus ingredientes disponibles o filtre alimentos que desea evitar, ofreciendo un resultado útil en cualquiera de los tres casos sin obligar a implementar el conjunto completo desde el inicio. 
 
 ## US-01
 
