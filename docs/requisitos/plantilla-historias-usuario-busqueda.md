@@ -70,8 +70,8 @@ La revisión abarca US-01, US-02 y US-03. «Aplicado» indica si se ha realizado
 | Independiente | ¿Puede implementarse cada historia y ofrecer un resultado útil sin implementar antes las otras historias del conjunto? Puede compartir infraestructura con ellas. | Sí | Sí | [Historias y motivo] |
 | Negociable | ¿Cada historia explica qué necesita la persona y deja margen para discutir los detalles de la solución, respetando los acuerdos confirmados? | Sí | [Sí/No/Pendiente] | [Historias y motivo] |
 | Valiosa | ¿La parte «para…» de cada historia explica el beneficio que obtiene la persona al usar esa capacidad? | Sí | [Sí/No/Pendiente] | [Historias y motivo] |
-| Estimable | ¿Están claros el alcance y los datos necesarios para estimar el trabajo de cada historia? | [Sí/No] | [Sí/No/Pendiente] | [Historias y motivo] |
-| Pequeña | ¿Se centra cada historia en una única capacidad de alcance manejable? | [Sí/No] | [Sí/No/Pendiente] | [Historias y motivo] |
+| Estimable | ¿Están claros el alcance y los datos necesarios para estimar el trabajo de cada historia? | Sí | [Sí/No/Pendiente] | [Historias y motivo] |
+| Pequeña | ¿Se centra cada historia en una única capacidad de alcance manejable? | Sí | [Sí/No/Pendiente] | [Historias y motivo] |
 | Comprobable | ¿Los criterios de aceptación de cada historia describen acciones y resultados observables que permiten distinguir un comportamiento correcto de uno incorrecto? | [Sí/No] | [Sí/No/Pendiente] | [Historias y motivo] |
 
 ## Dudas pendientes
