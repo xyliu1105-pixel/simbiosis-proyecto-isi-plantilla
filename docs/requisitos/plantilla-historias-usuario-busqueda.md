@@ -35,7 +35,6 @@ Como persona usuaria registrada, quiero buscar recetas mediante una palabra o fr
 
 - **CA-01.** Dado que existen las recetas publicadas "Ensalada de pasta" y "Pasta al pesto", cuando la persona usuaria busca la frase "pasta al pesto", entonces el sistema muestra únicamente "Pasta al pesto" en los resultados.
 - **CA-02.** Dado que existen las recetas publicadas "Tarta de Manzana" y "Sopa de verdura", cuando la persona usuaria busca el texto "manzana", entonces el sistema devuelve "Tarta de Manzana" ignorando las mayúsculas y las tildes.
-- **CA-03.** Dado que no existe ninguna receta publicada con el término "quinoa", cuando la persona usuaria busca "quinoa", entonces el sistema indica que no hay resultados para esa búsqueda y propone una corrección u opción alternativa.
 
 ## US-02
 
@@ -49,7 +48,6 @@ Como persona usuaria registrada, quiero buscar recetas seleccionando ingrediente
 
 - **CA-01.** Dado que la receta "Arroz al horno" contiene "arroz" y "tomate", y la receta "Ensalada" solo contiene "tomate", cuando la persona usuaria selecciona incluir "arroz" y "tomate", entonces el sistema muestra en los resultados únicamente "Arroz al horno" por cumplir la inclusión de todos los ingredientes seleccionados.
 - **CA-02.** Dado que existen recetas con el ingrediente "lentejas", cuando la persona usuaria selecciona únicamente el ingrediente "lentejas" y ejecuta la búsqueda, entonces el sistema muestra el listado de recetas que contienen dicho ingrediente ordenadas por fecha de publicación.
-- **CA-03.** Dado que no existen recetas validadas que contengan conjuntamente "aguacate" y "garbanzos", cuando la persona busca ambos ingredientes incluidos, entonces el sistema indica que no hay resultados y sugiere alternativas conservando los criterios seleccionados.
 
 ## US-03
 
@@ -60,9 +58,8 @@ Como persona usuaria registrada, quiero indicar ingredientes que deseo quitar en
 
 ### Criterios de aceptación
 
-- **CA-01.** Dado [situación], cuando [acción], entonces [resultado observable].
-- **CA-02.** Dado [situación], cuando [acción], entonces [resultado observable].
-- **CA-03.** Dado [situación], cuando [acción], entonces [resultado observable].
+- **CA-01.** Dado que la receta "Bizcocho" contiene "almedras" y la receta "Bizcocho de yogur" no contiene frutos secos, cuando la persona usuaria busca "Bizcocho" y marca la exclusión de "almendras", entonces el sistema muestra en los resultados solo "Bizcocho de yogur".
+- **CA-02.** Dado que existen varias recetas publicadas, cuando la persona marca la exclusión del ingrediente "cacahuete" sin introducir texto ni incluir otros ingredientes, entonces el sistema ejecuta la búsqueda y muestra únicamente las recetas que no contienen "cacahuete".
 
 ## Revisión INVEST
 
