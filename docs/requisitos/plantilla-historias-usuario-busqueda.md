@@ -33,9 +33,9 @@ Como persona usuaria registrada, quiero buscar recetas mediante una palabra o fr
 
 ### Criterios de aceptación
 
-- **CA-01.** Dado [situación], cuando [acción], entonces [resultado observable].
-- **CA-02.** Dado [situación], cuando [acción], entonces [resultado observable].
-- **CA-03.** Dado [situación], cuando [acción], entonces [resultado observable].
+- **CA-01.** Dado que existen las recetas publicadas "Ensalada de pasta" y "Pasta al pesto", cuando la persona usuaria busca la frase "pasta al pesto", entonces el sistema muestra únicamente "Pasta al pesto" en los resultados.
+- **CA-02.** Dado que existen las recetas publicadas "Tarta de Manzana" y "Sopa de verdura", cuando la persona usuaria busca el texto "manzana", entonces el sistema devuelve "Tarta de Manzana" ignorando las mayúsculas y las tildes.
+- **CA-03.** Dado que no existe ninguna receta publicada con el término "quinoa", cuando la persona usuaria busca "quinoa", entonces el sistema indica que no hay resultados para esa búsqueda y propone una corrección u opción alternativa.
 
 ## US-02
 
