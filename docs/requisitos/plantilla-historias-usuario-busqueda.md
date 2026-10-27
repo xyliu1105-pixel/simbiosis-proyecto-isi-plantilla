@@ -21,8 +21,6 @@ Como persona usuaria registrada, quiero buscar recetas por término de texto, po
 
 ## Justificación de la división
 
-[Justificación de los resultados útiles que separa la división.]
-
 Dividimos la épica en tres historias independientes porque cada una cubre una capacidad de búsqueda funcional específica que aporta un valor diferenciado por sí misma. Esto permite que una persona busque solo por texto, busque aprovechando sus ingredientes disponibles o filtre alimentos que desea evitar, ofreciendo un resultado útil en cualquiera de los tres casos sin obligar a implementar el conjunto completo desde el inicio. 
 
 ## US-01
