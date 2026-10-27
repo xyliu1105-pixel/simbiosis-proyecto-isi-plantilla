@@ -47,9 +47,9 @@ Como persona usuaria registrada, quiero buscar recetas seleccionando ingrediente
 
 ### Criterios de aceptación
 
-- **CA-01.** Dado [situación], cuando [acción], entonces [resultado observable].
-- **CA-02.** Dado [situación], cuando [acción], entonces [resultado observable].
-- **CA-03.** Dado [situación], cuando [acción], entonces [resultado observable].
+- **CA-01.** Dado que la receta "Arroz al horno" contiene "arroz" y "tomate", y la receta "Ensalada" solo contiene "tomate", cuando la persona usuaria selecciona incluir "arroz" y "tomate", entonces el sistema muestra en los resultados únicamente "Arroz al horno" por cumplir la inclusión de todos los ingredientes seleccionados.
+- **CA-02.** Dado que existen recetas con el ingrediente "lentejas", cuando la persona usuaria selecciona únicamente el ingrediente "lentejas" y ejecuta la búsqueda, entonces el sistema muestra el listado de recetas que contienen dicho ingrediente ordenadas por fecha de publicación.
+- **CA-03.** Dado que no existen recetas validadas que contengan conjuntamente "aguacate" y "garbanzos", cuando la persona busca ambos ingredientes incluidos, entonces el sistema indica que no hay resultados y sugiere alternativas conservando los criterios seleccionados.
 
 ## US-03
 
