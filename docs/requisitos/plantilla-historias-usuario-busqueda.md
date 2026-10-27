@@ -55,9 +55,8 @@ Como persona usuaria registrada, quiero buscar recetas seleccionando ingrediente
 
 **Título:** Búsqueda por exclusión de ingredientes y búsqueda combinada
 
-Como [rol], quiero [capacidad], para [beneficio].
-
-**Fuentes:** UR-08; UC-21; [FR principal]; acta, [apartado pertinente].
+Como persona usuaria registrada, quiero indicar ingredientes que deseo quitar en mis búsquedas, para evitar recetas con alimentos que no puedo o no quiero consumir.
+**Fuentes:** UR-08; UC-21; FR-087; acta, apartado 2.
 
 ### Criterios de aceptación
 
