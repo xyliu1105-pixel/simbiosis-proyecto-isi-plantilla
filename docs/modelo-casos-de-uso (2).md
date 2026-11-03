@@ -356,6 +356,9 @@ Los apartados 6.1 y 6.2 corresponden a las descripciones detalladas de UC-05 y U
 
 **Preguntas abiertas:** no se requieren preguntas adicionales para el comportamiento cubierto por el acta. La ausencia de un FR específico para la consulta del detalle queda registrada en el respaldo del modelo; no se resuelve atribuyendo esa función a un requisito distinto.
 
+<img width="1131" height="791" alt="image" src="https://github.com/user-attachments/assets/a49ac610-5c66-4e15-a7fa-6045147df182" />
+
+
 ## 7 Continuidad entre iteraciones
 
 E1 estableció la primera vista del modelo. Su estado revisado se conserva en el commit público `984a17f`, con los casos UC-01 a UC-07, UC-09 a UC-11 y UC-31 a UC-35.
